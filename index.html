@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image gallary</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+        <div class="product">
+
+            <div class="product-small-img">
+                <img src="./pic1.jpg" onclick="myFunction(this)">
+                <img src="./pic2.jpg" onclick="myFunction(this)">
+                <img src="./pic3.jpg" onclick="myFunction(this)">
+                <img src="./pic4.jpg" onclick="myFunction(this)">
+                <img src="./pic5.jpg" onclick="myFunction(this)">
+            </div>
+            <div class="img-container">
+                <img id="imageBox" src="./pic1.jpg">
+            </div>
+        </div>
+
+        <script>
+            function myFunction(smallImg)
+            {
+                var fullImg = document.getElementById("imageBox");
+                fullImg.src = smallImg.src;
+
+            }
+        </script>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>

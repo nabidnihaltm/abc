@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.product-small-img img{
+    height: 100px;
+    margin: 10px 0;
+    display: block;
+    opacity: 0.6;
+}
+
+.product-small-img img:hover{
+    opacity: 1;
+    /* visibility: visible; */
+}
+.product-small-img{
+    float: left;
+}
+
+.product{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.img-container img
+{
+    height: 500px;
+
+}
+.img-container{
+    float: left;
+    padding: 10px;
+}
